@@ -1,5 +1,5 @@
 """Problem: Wrtie a function that returns the common elements (as an array) between
-two sorted arrays of integers (ascending order). Solution in O(n,m)  a.k.a  O(n or m)
+two SORTED arrays of integers (ascending order). Solution in O(n,m)  a.k.a  O(n or m)
 
 Solution: Move along both arrays using two pointers. Starting at index 0, p1 = p2 = 0.
 if elements are the same at the current pointers add the element to the result (continue).
