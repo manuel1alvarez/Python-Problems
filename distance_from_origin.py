@@ -1,5 +1,6 @@
-# Amazon Interview question. Given several tuple (points) away from the origin.
-# Find the k-points closest to the origin in ascending order. Python 3. Also runs python 2.
+""" Amazon Interview question. Given several 2-tuple (points) away from the origin.
+Find the k-points closest to the origin in ascending order. Python 3. Also runs python 2.
+"""
 import math
 import heapq
 
