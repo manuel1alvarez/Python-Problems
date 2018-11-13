@@ -71,9 +71,6 @@ def insert_method(s1,s2):
 
 
 
-
-
-
 print is_one_away("abcd", "abc")  # should return True
 print is_one_away("abcde", "abcd")  # should return True
 print is_one_away("abde", "abcde")  # should return True

@@ -8,7 +8,7 @@ Conversely if element for p2 is larger than that one at p1 then increment p1 (co
 This method takes advantage of the fact that both arrays are ascending.
 """
 
-def common_elements_simple(list1, list2): # trivial solution
+def common_elements_simple(list1, list2): # trivial solution8
     result = []
     for itemOne in list1:
         for itemTwo in list2:

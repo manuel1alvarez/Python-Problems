@@ -24,13 +24,17 @@ def entangled_sort(k, origin, tuples):
         temp_dist = distances[j]; temp_tuple = tuples[j];
         distances[j] = distances[i]; tuples[j] = tuples[i];
         distances[i] = temp_dist; tuples[i] = temp_tuple;
-  return tuples[0:k]
+  return tuples[0:len(tuples)]
 
 
 
-
-# Solution 2: Improved method. Heaps are designed to solve a very specific problem, they allow removal of the largest (or smallest in min_heap) item from a collection.
-# Build a max heap with k-points. Go down the remaining k to n tuples, then replace max_tuple when next distance is smaller. Re-Heapify after each swap. Items that don't belong in the bottom k-tuples will be removed. The heapify is outsourced to a python Import heapq.
+"""
+Solution 2: Improved method. Heaps are designed to solve a very specific problem,
+they allow removal of the largest (or smallest in min_heap) item from a collection.
+Build a max heap with k-points. Go down the remaining k to n tuples,
+then replace max_tuple when next distance is smaller. Re-Heapify after each swap.
+Items that don't belong in the bottom k-tuples will be removed. The heapify is outsourced to a python Import heapq.
+"""
 def max_heap_solution(k, origin, tuples):
   dist_tuples = [] #List of distances with its corresponding points.
   for i in range(0, len(tuples)):
