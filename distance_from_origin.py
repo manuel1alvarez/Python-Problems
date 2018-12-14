@@ -24,7 +24,7 @@ def entangled_sort(k, origin, tuples):
         temp_dist = distances[j]; temp_tuple = tuples[j];
         distances[j] = distances[i]; tuples[j] = tuples[i];
         distances[i] = temp_dist; tuples[i] = temp_tuple;
-  return tuples[0:len(tuples)]
+  return tuples[0:k]
 
 
 
