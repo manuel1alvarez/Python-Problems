@@ -1,5 +1,5 @@
 """
-Write a funciton that retrue true if one array is a rotation of another.
+Write a funciton that returns true if one array is a rotation of another.
 example: [1, 2, 3, 4, 5, 6, 7] and  [6, 7, 1, 2, 3, 4, 5]
 No duplicates in these arrays.**
 
