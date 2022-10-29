@@ -10,7 +10,6 @@ indices loop through both arrays simultaneously and check for their similarity.
 def is_rotation(list1, list2):
     if len(list1) != len(list2): # different sizes, not a rotation.
         return False
-
     startIndex = -1;
     for x in range(0,len(list1)):
         if (list1[0] == list2[x]):
